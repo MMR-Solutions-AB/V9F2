@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-container">
+        <h2>SIGN UP</h2>
+        <!-- 1 Input -->
+        <input id="username-input" type="text" placeholder="Username" />
+        <label id="username-label" class="status-label"></label>
+        <!-- 2 Input -->
+        <input id="email-input" type="email" placeholder="Email" />
+        <label id="email-label" class="status-label"></label>
+        <!-- 3 Input -->
+        <input id="password-input" type="password" placeholder="Password" />
+        <label id="password-label" class="status-label"></label>
+        <!-- 4 Input -->
+        <input id="confirm-password-input" type="password" placeholder="Confirm password" />
+        <label id="confirm-password-label" class="status-label"></label>
+        <!-- 5 Input -->
+        <label id="agree-label" class="checkbox-label">
+          <input id="agree" type="checkbox" />
+          Agree to terms and conditions
+        </label>
+        <button type="submit">Sign up</button>
+      </form>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
